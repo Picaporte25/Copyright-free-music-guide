@@ -1,10 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Analytics } from '@vercel/analytics/react';
-import { track } from '@vercel/analytics';
-
-const analytics = Analytics();
+import { track } from '@vercel/analytics/react';
 
 export default function HomePage() {
   return (
