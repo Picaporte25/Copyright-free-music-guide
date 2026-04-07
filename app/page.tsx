@@ -1,6 +1,10 @@
 'use client';
 
 import Link from 'next/link';
+import { Analytics } from '@vercel/analytics/react';
+import { track } from '@vercel/analytics';
+
+const analytics = Analytics();
 
 export default function HomePage() {
   return (
@@ -173,6 +177,7 @@ export default function HomePage() {
                   rel="noopener noreferrer"
                   className="font-bold hover:underline"
                   style={{ color: 'black' }}
+                  onClick={() => track('pearl_sonic_click', { location: 'quality_note' })}
                 >
                   PearlSonic
                 </Link> offer high-fidelity outputs in multiple formats to ensure compatibility with your production workflow.
@@ -188,6 +193,7 @@ export default function HomePage() {
                 rel="noopener noreferrer"
                 className="font-bold hover:underline"
                 style={{ color: 'black' }}
+                onClick={() => track('pearl_sonic_click', { location: 'future_of_audio' })}
               >
                 PearlSonic
               </Link> are at the forefront of this evolution, what was once limited to simple loops now extends to complex, evolving compositions with dynamic structures and emotional depth.
@@ -217,6 +223,7 @@ export default function HomePage() {
                   display: 'inline-block',
                   transition: 'all 0.2s ease'
                 }}
+                onClick={() => track('pearl_sonic_click', { location: 'cta_button' })}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.backgroundColor = '#2a2a2a';
                   e.currentTarget.style.transform = 'translateY(-2px)';
