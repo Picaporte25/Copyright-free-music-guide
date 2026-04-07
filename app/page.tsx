@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { track } from "@vercel/analytics/next";
+import { track } from "@vercel/analytics";
 
 export default function HomePage() {
   return (
