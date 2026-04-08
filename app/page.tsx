@@ -181,6 +181,76 @@ export default function HomePage() {
               </p>
             </div>
 
+            <h2>PearlSonic vs Suno: ¿Cuál elegir?</h2>
+
+            <p>
+              El mercado de música con IA crece rápidamente, y es importante elegir la herramienta que mejor se adapte a tus necesidades. Aquí te mostramos una comparación honesta.
+            </p>
+
+            <p>
+              <strong>Suno AI</strong> es excelente si eres un estudio profesional que genera música diariamente. Su modelo de suscripción funciona bien para usuarios de alto volumen que necesitan crear decenas de canciones cada mes.
+            </p>
+
+            <p>
+              Sin embargo, para la mayoría de los creadores de contenido, <strong>PearlSonic ofrece una ventaja clara: pago por uso en lugar de suscripciones forzadas.</strong>
+            </p>
+
+            <h3>Comparación de Precios:</h3>
+
+            <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', border: '1px solid #e5e7eb', borderRadius: '8px', overflow: 'hidden' }}>
+                <thead>
+                  <tr style={{ backgroundColor: '#f9fafb', borderBottom: '2px solid #e5e7eb' }}>
+                    <th style={{ padding: '12px 16px', textAlign: 'left', fontWeight: '600', color: '#111827', fontSize: '14px' }}>Escenario</th>
+                    <th style={{ padding: '12px 16px', textAlign: 'left', fontWeight: '600', color: '#111827', fontSize: '14px' }}>PearlSonic</th>
+                    <th style={{ padding: '12px 16px', textAlign: 'left', fontWeight: '600', color: '#111827', fontSize: '14px' }}>Suno AI (Plan Pro)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style={{ borderBottom: '1px solid #e5e7eb' }}>
+                    <td style={{ padding: '12px 16px', color: '#374151', fontSize: '14px' }}>2 minutos de música</td>
+                    <td style={{ padding: '12px 16px', color: '#374151', fontSize: '14px' }}>$5 (pago único)</td>
+                    <td style={{ padding: '12px 16px', color: '#374151', fontSize: '14px' }}>~$16/mes (suscripción mínima)</td>
+                  </tr>
+                  <tr>
+                    <td style={{ padding: '12px 16px', color: '#374151', fontSize: '14px' }}>10 minutos de música</td>
+                    <td style={{ padding: '12px 16px', color: '#374151', fontSize: '14px' }}>$25 (pago único)</td>
+                    <td style={{ padding: '12px 16px', color: '#374151', fontSize: '14px' }}>~$16-30/mes (depende del plan)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>
+              <strong>La diferencia:</strong> Si necesitas música ocasionalmente para videos, podcasts o contenido social, PearlSonic te ahorra $11+ mensuales en comparación con la suscripción mínima de Suno.
+            </p>
+
+            <h3>¿Cuál elegir?</h3>
+
+            <p>
+              <strong>Elige PearlSonic si:</strong>
+            </p>
+            <ul className="key-points">
+              <li>Necesitas música para proyectos específicos</li>
+              <li>No quieres compromisos mensuales</li>
+              <li>Prefieres un presupuesto predecible</li>
+              <li>Eres un creador ocasional</li>
+            </ul>
+
+            <p>
+              <strong>Elige Suno AI si:</strong>
+            </p>
+            <ul className="key-points">
+              <li>Generas música diariamente</li>
+              <li>Eres un estudio de producción</li>
+              <li>Necesitas alto volumen mensual</li>
+              <li>El modelo de suscripción funciona para tu flujo de trabajo</li>
+            </ul>
+
+            <p>
+              Lo más importante: elige la herramienta que mejor se adapte a tu flujo de trabajo y presupuesto.
+            </p>
+
             <h2>The Future of Content Audio</h2>
 
             <p>
