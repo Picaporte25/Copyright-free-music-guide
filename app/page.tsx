@@ -188,11 +188,20 @@ export default function HomePage() {
             </p>
 
             <p>
-              <strong>Suno AI</strong> is excellent if you are a professional studio generating music daily. Its subscription model works well for high-volume users who need to create dozens of songs every month.
+              <strong><a href="https://suno.ai" target="_blank" rel="nofollow noopener noreferrer" className="hover:underline" style={{ color: '#111827', textDecoration: 'none' }}>Suno AI</a></strong> is excellent if you are a professional studio generating music daily. Its subscription model works well for high-volume users who need to create dozens of songs every month.
             </p>
 
             <p>
-              However, for most content creators, <strong>PearlSonic offers a clear advantage: pay-per-use instead of forced subscriptions.</strong>
+              However, for most content creators, <strong><Link
+                href="https://pearl-sonic.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+                style={{ color: '#111827', textDecoration: 'none' }}
+                onClick={() => track('pearl_sonic_click', { location: 'comparison_intro' })}
+              >
+                PearlSonic
+              </Link> offers a clear advantage: pay-per-use instead of forced subscriptions.</strong>
             </p>
 
             <h3>Price Comparison:</h3>
