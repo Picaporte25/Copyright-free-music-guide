@@ -203,7 +203,7 @@ export default function HomePage() {
                   <tr style={{ backgroundColor: '#f9fafb', borderBottom: '2px solid #e5e7eb' }}>
                     <th style={{ padding: '12px 16px', textAlign: 'left', fontWeight: '600', color: '#111827', fontSize: '14px' }}>Scenario</th>
                     <th style={{ padding: '12px 16px', textAlign: 'left', fontWeight: '600', color: '#111827', fontSize: '14px' }}>PearlSonic</th>
-                    <th style={{ padding: '12px 16px', textAlign: 'left', fontWeight: '600', color: '#111827', fontSize: '14px' }}>Suno AI (Pro Plan)</th>
+                    <th style={{ padding: '12px 16px', textAlign: 'left', fontWeight: '600', color: '#111827', fontSize: '14px' }}><a href="https://suno.ai" target="_blank" rel="nofollow noopener noreferrer" className="hover:underline" style={{ color: '#111827', textDecoration: 'none' }}>Suno AI (Pro Plan)</a></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -222,7 +222,7 @@ export default function HomePage() {
             </div>
 
             <p>
-              <strong>The difference:</strong> If you need music occasionally for videos, podcasts, or social content, PearlSonic saves you $11+ monthly compared to Suno's minimum subscription.
+              <strong>The difference:</strong> If you need music occasionally for videos, podcasts, or social content, PearlSonic saves you $11+ monthly compared to <a href="https://suno.ai" target="_blank" rel="nofollow noopener noreferrer" className="hover:underline" style={{ color: '#111827', textDecoration: 'none' }}>Suno's</a> minimum subscription.
             </p>
 
             <h3>Which Should You Choose?</h3>
@@ -238,7 +238,7 @@ export default function HomePage() {
             </ul>
 
             <p>
-              <strong>Choose Suno AI if:</strong>
+              <strong>Choose <a href="https://suno.ai" target="_blank" rel="nofollow noopener noreferrer" className="hover:underline" style={{ color: '#111827', textDecoration: 'none' }}>Suno AI</a> if:</strong>
             </p>
             <ul className="key-points">
               <li>You generate music daily</li>
